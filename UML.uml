@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/.Facultate/TP/Assigment1_Polinoame/src/main/java/assigment1_polinoame</OriginalElement>
+  <nodes>
+    <node x="82.50000000000001" y="683.0">assigment1_polinoame.Controller</node>
+    <node x="10.5" y="442.0">assigment1_polinoame.Operatii</node>
+    <node x="428.0" y="0.0">assigment1_polinoame.Application</node>
+    <node x="172.25" y="0.0">assigment1_polinoame.Monom</node>
+    <node x="191.0" y="198.0">assigment1_polinoame.Polinom</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="assigment1_polinoame.Controller" target="assigment1_polinoame.Operatii" relationship="CREATE">
+      <point x="-42.5" y="-392.0" />
+      <point x="125.00000000000001" y="662.0" />
+      <point x="118.00000000000001" y="662.0" />
+      <point x="118.00000000000001" y="652.0" />
+      <point x="89.0" y="652.0" />
+      <point x="-78.5" y="94.5" />
+    </edge>
+    <edge source="assigment1_polinoame.Polinom" target="assigment1_polinoame.Monom" relationship="TO_MANY">
+      <point x="48.0" y="-95.0" />
+      <point x="335.0" y="177.0" />
+      <point x="290.75" y="177.0" />
+      <point x="39.5" y="73.0" />
+    </edge>
+    <edge source="assigment1_polinoame.Controller" target="assigment1_polinoame.Polinom" relationship="TO_ONE">
+      <point x="42.5" y="-392.0" />
+      <point x="210.0" y="662.0" />
+      <point x="217.0" y="662.0" />
+      <point x="217.0" y="652.0" />
+      <point x="335.0" y="652.0" />
+      <point x="48.0" y="95.0" />
+    </edge>
+    <edge source="assigment1_polinoame.Operatii" target="assigment1_polinoame.Polinom" relationship="CREATE">
+      <point x="0.0" y="-94.5" />
+      <point x="167.5" y="420.0" />
+      <point x="0.0" y="420.0" />
+      <point x="0.0" y="410.0" />
+      <point x="239.0" y="410.0" />
+      <point x="-48.0" y="95.0" />
+    </edge>
+    <edge source="assigment1_polinoame.Operatii" target="assigment1_polinoame.Monom" relationship="CREATE">
+      <point x="0.0" y="-94.5" />
+      <point x="167.5" y="177.0" />
+      <point x="246.25" y="177.0" />
+      <point x="246.25" y="167.0" />
+      <point x="211.75" y="167.0" />
+      <point x="-39.5" y="73.0" />
+    </edge>
+    <edge source="assigment1_polinoame.Polinom" target="assigment1_polinoame.Monom" relationship="CREATE">
+      <point x="-48.0" y="-95.0" />
+      <point x="239.0" y="177.0" />
+      <point x="246.25" y="177.0" />
+      <point x="246.25" y="167.0" />
+      <point x="211.75" y="167.0" />
+      <point x="-39.5" y="73.0" />
+    </edge>
+    <edge source="assigment1_polinoame.Controller" target="assigment1_polinoame.Operatii" relationship="TO_ONE">
+      <point x="42.5" y="-392.0" />
+      <point x="210.0" y="662.0" />
+      <point x="217.0" y="662.0" />
+      <point x="217.0" y="652.0" />
+      <point x="246.0" y="652.0" />
+      <point x="78.5" y="94.5" />
+    </edge>
+    <edge source="assigment1_polinoame.Controller" target="assigment1_polinoame.Polinom" relationship="CREATE">
+      <point x="-42.5" y="-392.0" />
+      <point x="125.00000000000001" y="662.0" />
+      <point x="118.00000000000001" y="662.0" />
+      <point x="118.00000000000001" y="652.0" />
+      <point x="0.0" y="652.0" />
+      <point x="0.0" y="410.0" />
+      <point x="239.0" y="410.0" />
+      <point x="-48.0" y="95.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4418291862811029" showDependencies="true" x="287.5" y="733.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
